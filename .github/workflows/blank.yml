@@ -20,6 +20,6 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: 'Get php file'
+      - name: 'Get php file.'
         run: php ./testdir.php
        
